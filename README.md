@@ -44,12 +44,9 @@ This file contains the 10K most common paswwords to compare against
 * Stretch goal: timeout 30s, 2 mins, 10 mins, etc.
 
 #### PEP 8
-* Python Enhancement Proposal.Makes your code more organized and readable. 
-* Use 4 spaces per indentation level.
-* Spaces are the preferred indentation method.
-* Pick a rule and stick to it when a string contains single or double quote characters.
-* limit all lines to 79 chars max.
-* Comments should have 72 characters of line length. 
+* Names/naming scheme
+* Tabs indent -4
+* limit all lines to 79 chars max
 
 #### Validation
 * password validation - 1 capital letter, 1 special characer, 1 number,
@@ -70,6 +67,35 @@ This file contains the 10K most common paswwords to compare against
 * log for attempts(5)
 * log to sys
 * log to file
+
+### Login Script
+This secure login script uses:
+* Hashing
+* PEP8 Standards
+* Logging
+* Entry validation
+
+
+### PEP8 Standards
+* Python Enhancement Proposal.Makes your code more organized and readable. 
+* Use 4 spaces per indentation level.
+* Spaces are the preferred indentation method.
+* Pick a rule and stick to it when a string contains single or double quote characters.
+* limit all lines to 79 chars max.
+* Comments should have 72 characters of line length. 
+
+### Validation
+This is a basic paragraph about Validation
+* This is basic bullet point
+
+### Try/Except
+This is a basic paragraph about Try/Except
+* This is basic bullet point
+
+### Logs
+Logging 
+* Level set to warning
+* Critical log if user tries to input "\n" - new line
 
 ### References
 * 
