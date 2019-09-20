@@ -42,9 +42,12 @@ This file contains the 10K most common paswwords to compare against
 * Stretch goal: timeout 30s, 2 mins, 10 mins, etc.
 
 #### PEP 8
-* Names/naming scheme
-* Tabs indent -4
-* limit all lines to 79 chars max
+* Python Enhancement Proposal.Makes your code more organized and readable. 
+* Use 4 spaces per indentation level.
+* Spaces are the preferred indentation method.
+* Pick a rule and stick to it when a string contains single or double quote characters.
+* limit all lines to 79 chars max.
+* Comments should have 72 characters of line length. 
 
 
 #### Validation
