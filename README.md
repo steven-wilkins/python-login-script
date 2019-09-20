@@ -5,6 +5,8 @@ SecureSet Academy
 
 #### Group: Andrew Galvin, Amilcar Spezia, Alex White, Steven Wilkins
 
+### Why switch to our code
+
 
 ### Modules
 ```
@@ -49,7 +51,6 @@ This file contains the 10K most common paswwords to compare against
 * limit all lines to 79 chars max.
 * Comments should have 72 characters of line length. 
 
-
 #### Validation
 * password validation - 1 capital letter, 1 special characer, 1 number,
 * regular expression
@@ -69,27 +70,6 @@ This file contains the 10K most common paswwords to compare against
 * log for attempts(5)
 * log to sys
 * log to file
-
-
-### Login Script
-This is a basic paragraph about the login script
-* This is basic bullet point
-
-### PEP8 Standards
-This is a basic paragraph about PEP8 Standards
-* This is basic bullet point
-
-### Validation
-This is a basic paragraph about Validation
-* This is basic bullet point
-
-### Try/Except
-This is a basic paragraph about Try/Except
-* This is basic bullet point
-
-### Logs
-This is a basic paragraph about Log
-* This is basic bullet point
 
 ### References
 * 
