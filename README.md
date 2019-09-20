@@ -90,14 +90,23 @@ Our validation ensures the user input doesn't contain illegal symbols
 * Between 5 and 25 characters
 
 ### Try/Except
-This is a basic paragraph about Try/Except
-* This is basic bullet point
+* Exception handling allows a programmer to enbale flow control. Try and except is the most common way of handling unexpected errors along with many exception handling constructs. Try allows you to implement an exception and handle the error inside an expect block, when the code breaks inside a try block the regular code flow will step and control will get switched to the except block for handling the error. The try and expect can slove race conditions really well.
 
+* In this script I used 4 common expception error that occured in programming scripts
+
+* VauleError occurs when a function gets a argument correct type but improper value, I used this to slove if a user puts in the correct name but wrong passwoord.
+
+* KeyboardInterrput is raised when the user hits a interrput key (Ctrl+c or delete). I used this to slove if a user hits these keys on accident or in a attepmt to hack the login page.
+
+* ImportError is raised when the imported module is not found. Since our code is using five modules I want to use this in case of any issues with the modules
+
+* RuntimeError raised when an error does not fall under any other category. In the event if an unknown error occures, this exception will address it. This is a catch all error.
 ### Logs
 Logging 
 * Level set to warning
 * Critical log if user tries to input "\n" - new line
 
 ### References
-* 
-* 
+* https://www.programiz.com/python-programming/exceptions
+* https://www.w3schools.com/python/python_try_except.asp
+
