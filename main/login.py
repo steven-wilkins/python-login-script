@@ -71,8 +71,8 @@ def namePrompt():
 
 def passPrompt():
     # Get pass hides password input on stdout
-    return getpass.getpass()
-    # return input('password: ')
+    input = getpass.getpass()
+    return validator(input)
 
 def fileReader():
     filed = open('./loginInfo.txt', 'r').read().split(':')
@@ -82,9 +82,9 @@ def fileReader():
 def validator(entry):
     if(len(entry) < 4 or len(entry) > 25):
         print('Entry must be between 5 and 25 characters')
-    elif(re.search(r"\n", entry)):
+    elif(re.search(r"\\n", entry)):
         print('New lines not allowed')
-        logging.critical(entry, 'Input was a line break')
+        logging.critical('Input was a line break')
         sys.exit(exit)
     else:
         return entry
@@ -97,7 +97,6 @@ def credentialChecker():
     name = namePrompt()
     fd = fileReader()
     passcode = passwordHash()
-    validator(name)
     if(name == fd[0]):
         if(passcode == fd[1]):
             print('Login Succesful!')

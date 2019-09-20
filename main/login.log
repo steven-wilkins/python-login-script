@@ -1,1 +1,8 @@
 WARNING:root:Interrupt command input
+WARNING:root:Interrupt command input
+CRITICAL:root:Input was a line break
+CRITICAL:root:Input was a line break
+CRITICAL:root:Input was a line break
+CRITICAL:root:Input was a line break
+CRITICAL:root:Input was a line break
+WARNING:root:Interrupt command input
