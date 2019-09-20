@@ -6,7 +6,7 @@ SecureSet Academy
 #### Group: Andrew Galvin, Amilcar Spezia, Alex White, Steven Wilkins
 
 ### Why switch to our code
-
+Our login code offers a secure way to manage your users logins. With this secure code, you can have peace of mind. Our code is compliant with PEP8 standards, uses efficient loggin methods, validates user entries, and implements an effcient Try/Except statement to keep everthing running smoothly.
 
 ### Modules
 ```
