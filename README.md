@@ -6,7 +6,7 @@ SecureSet Academy
 #### Group: Andrew Galvin, Amilcar Spezia, Alex White, Steven Wilkins
 
 ### Why switch to our code
-Our login code offers a secure way to manage your users logins. With this secure code, you can have peace of mind. Our code is compliant with PEP8 standards, uses efficient loggin methods, validates user entries, and implements an effcient Try/Except statement to keep everthing running smoothly.
+Our login code offers a secure way to manage your users logins. With this secure code, you can have peace of mind. Our code is compliant with PEP8 standards, uses efficient logging methods, validates user entries, and implements an efficient Try/Except statement to keep everything running smoothly.
 
 ### Modules
 ```
@@ -85,8 +85,9 @@ This secure login script uses:
 * Comments should have 72 characters of line length. 
 
 ### Validation
-This is a basic paragraph about Validation
-* This is basic bullet point
+Our validation ensures the user input doesn't contain illegal symbols
+* no "\n"
+* Between 5 and 25 characters
 
 ### Try/Except
 This is a basic paragraph about Try/Except
