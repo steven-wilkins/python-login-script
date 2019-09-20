@@ -85,8 +85,9 @@ This secure login script uses:
 * Comments should have 72 characters of line length. 
 
 ### Validation
-This is a basic paragraph about Validation
-* This is basic bullet point
+Our validation ensures the user input doesn't contain illegal symbols
+* no "\n"
+* Between 5 and 25 characters
 
 ### Try/Except
 This is a basic paragraph about Try/Except
